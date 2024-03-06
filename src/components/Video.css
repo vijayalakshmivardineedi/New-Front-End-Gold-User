@@ -1,0 +1,14 @@
+.product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .product-video {
+    width: 95%;
+    height: 40%;
+    margin-top: 12px;
+
+  }
+  

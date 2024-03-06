@@ -1,0 +1,51 @@
+.MyOrder-Header{
+    margin: 0;
+    font-family: "Domine", serif;
+    font-weight: 500;
+    margin-top:10px;
+    font-size: 40px;
+    color: #333; 
+    text-align: center;
+}
+.main-container{
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+.MyOrder-card{
+    width: 50%;
+    padding: 5px;
+    height: auto;
+}
+.myorders-details1{
+    justify-content: space-between;
+    display: flex;
+    font-size: 22px;
+    font-family: "Domine", serif;
+}
+.myorders-details2{
+    justify-content: space-between;
+    display: flex;
+    font-size: 18px;
+    font-family: "Domine", serif;
+}
+.myorders-details3{
+    justify-content: space-between;
+    display: flex;
+    font-size: 18px;
+    font-family: "Domine", serif;
+}
+.myorders-details{
+    justify-content: space-between;
+    display: flex;
+    font-size: 18px;
+    font-family: "Domine", serif;
+}
+.More-Details{
+    text-align: left;
+    padding-top: 20px;
+    color: blue;
+}
+.More-Details .orders-button{
+    border: "none";
+}

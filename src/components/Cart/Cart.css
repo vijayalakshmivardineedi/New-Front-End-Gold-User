@@ -1,0 +1,308 @@
+
+/* Cart container styles */
+.cart{
+  padding: 20px;
+}
+
+/* Cart item styles */
+.cart-box {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.cart-box .col-md-4 {
+  flex: 0 0 25%; /* 25% width for the image column */
+  padding-right: 15px;
+}
+
+.cart-box .col-md-8 {
+  flex: 0 0 75%; /* 75% width for the product details */
+}
+
+.image {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-quantity {
+  display: flex;
+  align-items: center;
+  font-family: PT Sans;
+}
+.card-content{
+  font-family: PT Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 600;
+  color:#4f3267;
+
+}
+.quantity-button {
+  font-size: 18px;
+  cursor: pointer;
+  background-color:white;
+  border: 2px solid black;
+  color: black;
+}
+
+.quantity {
+  font-size: 18px;
+  margin: 0 10px;
+}
+.price{
+  font-size: x-large;
+  font-family:  Muli,Arial,sans-serif;
+}
+.remove-button {
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #28666e;
+}
+
+.wishlist-button {
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.wishlist-button:hover {
+  background-color: #0a407c;
+}
+
+.order h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.cart-header{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.order-summary-box {
+  background-color: #f3f3f3f6;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+.order-summary-box .order1{
+  font-family: Domine,serif;
+  font-weight: 600;
+  text-align: center;
+}
+.order-summary-box .length {
+  font-family: Domine,serif;
+  text-align: start;
+}
+
+.summary-text {
+  font-size: 30px;
+  color: #333;
+  margin: 10px 0;
+}
+.order-summary-heading{
+  
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+  color:#4f3267;
+
+}
+.buy-button1 {
+  font-size: 18px;
+  color: #fff;
+  background-color: #DE57E5;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.order-summary-box .length  {
+  font-family: Mulish,sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  font-style: normal;
+
+}
+.cart-size-design{
+  margin-left:10px;
+  font-family:Domine,serif;
+  color:#4f3267;
+}
+.Gift-Message{
+  justify-content: space-between;
+  display: flex;
+}
+.Gift-Icon{
+  font-size: 25px;
+}
+.checkout-inputbox input:focus~span {
+  transform: translateX(-0px) translateY(-15px);
+  font-size: 16px
+}
+
+.checkout-inputbox input:valid~span {
+  transform: translateX(-0px) translateY(-15px);
+  font-size: 16px
+}
+
+.checkout-button{
+  font-size: 16px;
+  margin-top:10px;
+  background-color: #fff;
+  border-color: linear-gradient(to right,#DE57E5 50%,#8863FB 50%);
+  border: 1px solid;
+  font-weight: 600;
+  border-radius: 5px;
+  padding:5px;
+
+}
+.checkout-button:hover{
+  color:#DE57E5;
+  background:  white;
+}
+.order-summary-box .placeorder-button{
+  font-size: 18px;
+  margin-top:20px;
+  color: white;
+  background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 100%;
+  border:none;
+}
+.order-summary-box .placeorder-button:hover{
+  color: #DE57E5;
+  background: #fff;
+  border:2px solid #DE57E5;
+}
+.checkout-header{
+  font-size: 30px;
+  font-family: 'Domine', serif;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.checkout-remove-button{
+  background-color: #28666e; /* Change the button color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.checkout-remove-button:hover{
+  background-color: #b71c1c;
+}
+.checkout-submit:hover{
+  background-color: #28666e; /* Change the button color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkout-submit{
+  background-color:white; /* Change the button color */
+  color: #28666e;
+  border: 3px solid #28666e;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.checkout-size-design{
+  margin-left:10px
+}
+.Gift{
+  text-align: left;
+  font-size: 17px;
+  margin-top: 20px;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 500;
+  font-family: 'Domine', serif;
+  color: #4d4d4d;
+  justify-content: space-between;
+  display: flex;
+}
+.Vocher{
+  text-align: left;
+  font-size: 17px;
+  margin-top: 20px;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+  font-family: Mulish,sans-serif;
+}
+.Vocher-Card{
+  justify-content: center;
+  display: flex;
+}
+.vocher-show-button{
+  border:none;
+  color: #DE57E5;
+  font-weight: 600;
+}
+.voucher-apply-button{
+  width: auto;
+  color: #DE57E5;
+  background: #fff;
+  border: 2px solid #DE57E5;
+  margin-right: 40px;
+  border-radius: 0 10px 10px 0;
+}
+.voucher-apply-button:hover{
+color: #fff;
+background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+}

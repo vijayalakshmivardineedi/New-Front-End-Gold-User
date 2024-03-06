@@ -1,0 +1,99 @@
+.about-page {
+  padding: 20px;
+  
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+
+.about-left {
+  flex: 1;
+  padding: 10px;
+}
+
+.about-left img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-right {
+  flex: 2;
+  padding: 10px;
+  text-align: justify;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between; /* Adjust alignment as needed */
+  margin-top: 20px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.image-box {
+  flex-basis: calc(20% - 10px); /* Adjust the width as needed */
+  margin-bottom: 10px;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+}
+.faces{
+font-family: "Domine", serif;
+  font-size: 30px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 500;
+  text-align: center;
+  color: #010101;
+
+}
+
+.over{
+text-align: justify;
+font-family: "Mulish", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+margin-top: 0%;
+
+}
+.esg{
+text-align: justify;
+font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+
+}
+.respo{
+  margin-left: 100px;
+}
+
+.list{
+font-family: "Mulish", sans-serif;
+  font-size: 18px;
+}

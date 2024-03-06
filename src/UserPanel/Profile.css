@@ -1,0 +1,25 @@
+.user-sidebar-button {
+    height: 35px;
+    width: 140px;
+    border: none;
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+}
+.button {
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Form{
+    text-align: center;
+    margin-top: 30px;
+}
+.Edit button{
+    background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+}
+.file-upload{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 70px;
+}

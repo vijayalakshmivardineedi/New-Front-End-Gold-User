@@ -1,0 +1,38 @@
+.signup-header{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+}
+.login-wrapper {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+  }
+
+.signup-content{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.form-control{
+    font-family: 'Times New Roman', Times, serif;
+}
+.signup-button{
+    font-size: 20px;
+    color:#fff;
+    border: none;
+    background: linear-gradient(to right,#DE57E5 0%,#8863FB 100%);
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 230px;
+    margin-top: 20px;
+    width:100px;
+  
+  }
+   .signup-button:hover{
+    background-color: white;
+   }
+   .form-link{
+    font-family: 'Times New Roman', Times, serif;
+   }

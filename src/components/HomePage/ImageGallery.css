@@ -1,0 +1,27 @@
+.image-gallery {
+  display: flex;
+  justify-content: center; /* Center align images horizontally */
+  align-items: center; /* Center align images vertically */
+  margin: 20px 0; /* Add margin for spacing above and below the row */
+  padding-left: 230px;
+
+}
+
+.image-card {
+  text-align: center;
+  margin: 0 10px; /* Adjust horizontal spacing between images */
+  margin-bottom: 20px; /* Add margin below each card */
+}
+
+.Cimage {
+  max-width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image-title {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Cormorant Upright";
+}

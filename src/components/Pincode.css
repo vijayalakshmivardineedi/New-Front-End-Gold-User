@@ -1,0 +1,35 @@
+  .updatebtn{
+    padding: 5px;
+    font-size: 16px;
+    font-family:  Mulish,sans-serif;
+    font-weight: 500;
+    border: 2px solid #de57e5;
+    border-radius: 10px 0 0 10px;
+  }
+  .pincodebtn{
+    padding: 5px;
+    font-size: 16px;
+    color: #de57e5;
+    font-weight: 500;
+    font-family:  Mulish,sans-serif;
+    border: 2px solid #de57e5;
+    border-radius: 0 10px 10px 0;
+  }
+  .pincodebtn:hover{
+    background-color:#8863fb ;
+    color: white;
+  }
+  .pincode-info , .location-details{
+    font-family: Mulish,sans-serif;
+  }
+  .locationbtn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #de57e5;
+    border:none;
+    margin-left: 10px;
+  }
+  .locationbtn:hover{
+    color: #8863fb;
+  }
+  

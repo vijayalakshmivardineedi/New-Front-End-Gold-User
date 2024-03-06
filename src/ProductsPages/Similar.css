@@ -1,0 +1,47 @@
+/* Product.css */
+.Scard {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 300px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.Scard:hover {
+  transform: scale(1.02); /* Zoom in slightly on hover */
+}
+
+.product--image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.Scard h2 {
+  margin: 0.5rem 0;
+  font-size: 1.7rem;
+  color: #333;
+}
+
+.Sprice {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family:Domine,serif;
+}
+
+.Scard button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.Scard button:hover {
+  background-color: #d84315;
+}

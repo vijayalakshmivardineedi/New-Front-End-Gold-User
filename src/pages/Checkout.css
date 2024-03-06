@@ -1,0 +1,267 @@
+
+.form-label {
+  display: block;
+  font-family: Muli,Arial,sans-serif;
+  margin-bottom: 5px;
+  font-weight: 800;
+  font-size: medium;
+  color: #555; /* Label text color */
+}
+.add_span {
+  font-size: 20px;
+}
+.checkout-form-control
+{
+  width: 100%;
+  font-size: 14px;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* White background */
+  color: #333; /* Text color */
+}
+/* Input field styles */
+.form-input {
+  width: 100%;
+  font-size: medium;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* White background */
+  color: #333; /* Text color */
+}
+
+/* Placeholder text color for input fields */
+.form-input::placeholder {
+  color: #999; /* Placeholder text color */
+}
+
+
+/* Additional styles */
+.input-container {
+  /* Add spacing around each input field */
+  padding: 10px;
+  background-color: #f5f5f5; /* Light gray background for input containers */
+  border-radius: 5px;
+}
+
+.Name-style {
+  font-family: Muli,Arial,sans-serif;
+  font-size: 20px;
+  line-height: 15px;
+  padding-left: 10px;
+}
+.Name-style1 {
+  font-family: Muli,Arial,sans-serif;
+  font-size: 25px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+.address-details {
+  display: flex;
+  flex-direction: column;
+ 
+  text-align: left;
+  margin-left: 10px;
+}
+.address-details p {
+  margin: 0;
+}
+.delivery {
+  margin-top: 0%;
+}
+.useAddress {
+  text-align: justify;
+  color: black;
+  text-decoration: none;
+}
+.checkout-list-style:active {
+  background-color: #111010;
+}
+.checkout-list-style .Name{
+  font-size: 16px;
+  font-family: Muli,Arial,sans-serif;
+}
+.checkout-list-style .Address{
+  font-size: 14px;
+  font-family: Muli,Arial,sans-serif;
+}
+.order1{
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.payment-headings{
+  font-size: 10px;
+  font-family: Muli,Arial,sans-serif;
+}
+
+.order-summary {
+  background-color: #f3f3f3f6;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  border-radius: 20px;
+  margin-top: 36px;
+}
+
+.summary-text {
+  font-size: 30px;
+  color: #333;
+  margin: 10px 0;
+}
+.order {
+  font-size: large;
+}
+.buy-button {
+  font-size: 18px;
+  color: #fff;
+  background-color: #0a407c;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.length {
+  font-family: Arial;
+  font-size: 19px;
+  font-style:  Muli,Arial,sans-serif;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+}
+
+.accordion_head {
+  font-family: Muli,Arial,sans-serif;
+  font-size: 17px;
+}
+.radio_check{
+ font-size: 20px;
+}
+.checkout-inputbox {
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%
+}
+.upiId{
+  font-size: 14px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.checkout-inputbox span {
+  position: absolute;
+  top: -7px;
+  left: 11px;
+  transition: 0.5s
+}
+.checkout-cart-box .image{
+ height:200px;
+ width:200px;
+}
+
+.checkout-inputbox i {
+  position: absolute;
+  top: 7px;
+  right: 8px;
+  transition: 0.5s;
+  color: #28666e;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0
+}
+
+.checkout-inputbox input:focus~span {
+  transform: translateX(-0px) translateY(-15px);
+  font-size: 16px
+}
+
+.checkout-inputbox input:valid~span {
+  transform: translateX(-0px) translateY(-15px);
+  font-size: 16px
+}
+
+.checkout-button{
+  font-size: 16px;
+  margin-top:10px;
+  background-color: #fff;
+  border: 3px solid #28666e;
+  font-weight: 600;
+  border-radius: 15px;
+
+}
+.checkout-button:hover{
+  color: white;
+  background-color: #28666e;
+}
+.placeorder-button{
+  font-size: 18px;
+  margin-top:10px;
+  color: white;
+  background-color: #28666e;
+color: #fff; 
+border: 3px solid #28666e;
+ padding: 10px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.placeorder-button:hover{
+  color: #28666e;
+  border: 3px solid #28666e;
+  background-color: #fefefe;
+}
+.checkout-header{
+  font-size: 30px;
+  font-family: Muli,Arial,sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.checkout-remove-button{
+  background-color: #28666e; /* Change the button color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.checkout-remove-button:hover{
+  background-color: #b71c1c;
+}
+.checkout-submit:hover{
+  background-color: #28666e; /* Change the button color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkout-submit{
+  background-color:white; /* Change the button color */
+  color: #28666e;
+  border: 3px solid #28666e;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.checkout-size-design{
+  margin-left:10px
+}

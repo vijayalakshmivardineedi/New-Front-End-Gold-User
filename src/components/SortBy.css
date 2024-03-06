@@ -1,0 +1,38 @@
+/* src/components/SortBy.css */
+
+.sortby {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: dotted;
+    width: 25%;
+    border-color: #f17d18;
+    height: 53px;
+    margin-top: 50px;
+    
+    
+    border-radius: 5px; /* Add border radius */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .sort {
+    font-family: Times New Roman, serif;
+    font-size: 24px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .fs-3 {
+    font-size: 18px;
+  }
+  
+  .low {
+    color: rgb(11, 11, 11); /* Text color for Low to High option */
+    background-color: #f17d18; /* Background color for Low to High option */
+  }
+  
+  .high {
+    color: rgb(0, 0, 0); /* Text color for High to Low option */
+    background-color: #f1882c; /* Background color for High to Low option */
+  }
+  

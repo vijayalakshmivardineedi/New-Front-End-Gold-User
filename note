@@ -1,0 +1,39 @@
+<table className="d-flex justify-content-center">
+        <tr>
+          <td>
+            <Dealscard
+              title="The Blooming Nadia Jhumka"
+              description="1,18,305"
+              imageUrl="https://kinclimg3.bluestone.com/f_webp,c_scale,w_418,b_rgb:f0f0f0/giproduct/BIVS0023D09_YAA18DIG6PROHXXXX_ABCD00-PICS-00004-1024-35828.png"
+            />
+          </td>
+          <td>
+            <Dealscard
+              title="The Levine Pendant"
+              description="16,091"
+              imageUrl="https://kinclimg2.bluestone.com/f_webp,c_scale,w_1024,b_rgb:f0f0f0/giproduct/BIAB0593P02_YAA22XXXXXXXXXXXX_ABCD00-PICS-00004-1024-44316.png"
+            />
+          </td>
+          <td>
+            <Dealscard
+              title="Unparalleled Gold Bangles"
+              description="1,62,746.00"
+              imageUrl="https://www.joyalukkas.in//media/catalog/product//d/s/ds1300042892_1.jpg"
+            />
+          </td>
+          <td>
+            <Dealscard
+              title="The Toral Gold Chain"
+              description="71,675"
+              imageUrl="https://kinclimg4.bluestone.com/f_webp,c_scale,w_1024,b_rgb:f0f0f0/giproduct/BVCC0611C05_YAA22XXXXXXXXXXXX_ABCD00-PICS-00003-1024-44624.png"
+            />
+          </td>
+          <td>
+            <Dealscard
+              title="The Elke Ring"
+              description="45,029"
+              imageUrl="https://kinclimg0.bluestone.com/f_webp,c_scale,w_1024,b_rgb:f0f0f0/giproduct/BISP0419R21_YAA18DIG6XXXXXXXX_ABCD00-PICS-00001-1024-54447.png"
+            />
+          </td>
+        </tr>
+      </table>

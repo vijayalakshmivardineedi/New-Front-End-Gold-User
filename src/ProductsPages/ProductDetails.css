@@ -1,0 +1,28 @@
+.product-details-container {
+    margin: 20px;
+    }
+    
+    .product-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    
+    .product-details-table th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    }
+    
+    .product-details-table th,
+    .product-details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+    
+    .product-details-table tbody:first-child th {
+    border-top: none;
+    }
+    
+    .product-details-table tbody:last-child td {
+    border-bottom: none;
+    }

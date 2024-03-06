@@ -1,0 +1,77 @@
+
+.wishlist-heading{
+  margin: 0;
+  font-family: "Cormorant Upright";
+  font-weight: 700;
+  font-size: 40px;
+  color: #333;
+  margin-left: 20px;
+}
+
+.wishlist-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  background-color: #f7f7f7; /* Add a background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  transition: transform 0.2s; /* Add a transition effect */
+}
+
+.wishlist-box:hover {
+  transform: scale(1.02); /* Zoom in slightly on hover */
+}
+.wishlist-box .image{
+  max-width: 100%;
+  height: auto;
+  text-align: center; 
+}
+.wishlist-header{
+  margin: 0;
+  font-weight: 550;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #4f3267 ; 
+  font-family: "Playfair Display";
+}
+
+.wishlist-price {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Playfair Display";
+}
+.buttons-wishlist{
+  
+  margin-top: 12px;
+}
+.wishlist-remove-button{
+  background:  linear-gradient(to right,#DE57E5 0%,#8863FB 100%); /* Change the button color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.wishlist-remove-button:hover{
+  background-color: #b71c1c;
+}
+.wishlist-cart{
+  color: #DE57E5;
+  background-color: #ffffff;
+  border: 2px solid #DE57E5; /* Change the button color on hover */
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-left: 65px;
+  transition: background-color 0.3s;
+}
+.wishlist-cart:hover{
+  background-color: #1976d2;
+  color: white;
+}

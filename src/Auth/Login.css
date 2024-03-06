@@ -1,0 +1,64 @@
+/* Login.css */
+
+.login-popup-container {
+  position: relative;
+}
+
+.login-page {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-header {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.login-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.login-form-label {
+  font-size: 20px;
+}
+
+.login-form {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+  font-size: 22px;
+  color: #fff;
+  border: none;
+  background: linear-gradient(to right, #de57e5 0%, #8863fb 100%);
+  border-radius: 10px;
+  width: auto;
+  height: 40px;
+  padding: auto;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+.form-link {
+  font-family: 'Times New Roman', Times, serif;
+}

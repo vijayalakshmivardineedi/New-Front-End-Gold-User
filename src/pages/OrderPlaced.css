@@ -1,0 +1,29 @@
+/* CSS for the Order Placed Successfully Page */
+
+.order-success {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .order-success h1 {
+    font-size: 24px;
+    color: #435a4a; /* Choose your desired text color */
+    margin-bottom: 20px;
+  }
+  
+  /* Style the "Continue Shopping" button */
+  .order-success a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Choose your desired button color */
+    color: #fff; /* Choose your desired button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-success a:hover {
+    background-color: #0056b3; /* Button color on hover */
+  }
+  

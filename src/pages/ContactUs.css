@@ -1,0 +1,57 @@
+/* components/ContactPage.css */
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.726);
+    padding-left: 25px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    padding: 3rem;
+    background-color: rgba(225, 229, 231, 0.726);
+    border-radius: 28px;
+  }
+  
+  .contact-form h3 {
+    margin-top: 0;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .description {
+    flex: 1;
+    font-size: 12px;
+    padding: 5rem;
+  }
+  
+  .description h2 {
+    margin-top: 0;
+  }
+  

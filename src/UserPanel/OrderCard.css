@@ -1,0 +1,22 @@
+.MyOrder-card{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fefbfb; /* Add a background color */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    transition: transform 0.2s; /* Add a transition effect */
+}
+.Myorder-img1{
+  text-align: center;
+  margin: 10px;
+}
+.myorders-details{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.MyOrder-card h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}

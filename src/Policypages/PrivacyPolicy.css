@@ -1,0 +1,58 @@
+/* PrivacyPolicy.css */
+.disclaimer_header{
+  margin-left: 60px;
+  margin-right: 60px;
+  }
+.privacy {
+    color: #0d2427;
+    font-family: 'Domine', serif;
+    padding: 20px;
+    font-weight: 700;
+  }
+  
+  .privacy h1 {
+    font-size: 30px;
+    font-weight: 500;
+      text-align: center;
+  }
+  
+  .privacy-content {
+    font-family:  'Mulish', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+  }
+  .privacy-content h2{
+    font-family:  Muli,Arial,sans-serif;
+    color: #0d2427;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .boldcontent{
+    font-family:  'Domine', serif;
+    font-size: 10px;
+  }
+  
+  .privacy-content p {
+    margin-bottom: 20px;
+  }
+  
+  .privacy-content li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  /* Adjust font size or other styles as needed */
+  .Contactdetails {
+    padding: 20px;
+    padding: 10px;
+  }
+  
+  .contactinfo {
+    font-family:  Muli,Arial,sans-serif;
+  }
+  .privacy-content1 {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  }

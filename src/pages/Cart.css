@@ -1,0 +1,145 @@
+/* Add this CSS to your Cart.css file or component styles */
+
+/* Cart container styles */
+.container-fluid {
+  padding: 20px;
+}
+
+/* Cart item styles */
+.cart-box {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.cart-box .col-md-4 {
+  flex: 0 0 25%; /* 25% width for the image column */
+  padding-right: 15px;
+}
+
+.cart-box .col-md-8 {
+  flex: 0 0 75%; /* 75% width for the product details */
+}
+
+.image {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-quantity {
+  display: flex;
+  align-items: center;
+}
+.header{
+  font-family: Domine, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 500;
+
+}
+.quantity-button {
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #0a407c;
+  border: none;
+  color: #ffffff;
+}
+
+.quantity {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.remove-button {
+  background-color: #0a407c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #0a407c;
+}
+
+.wishlist-button {
+  background-color: #0a407c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.wishlist-button:hover {
+  background-color: #0a407c;
+}
+
+/* Order summary styles */
+.order-summary {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.order h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.order-summary {
+  background-color: #f3f3f3f6;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  border-radius: 20px;
+  margin-top: 36px;
+}
+
+.summary-text {
+  font-size: 30px;
+  color: #333;
+  margin: 10px 0;
+}
+.order{
+  font-size: 25px; 
+}
+.buy-button {
+  font-size: 18px;
+  color: #fff;
+  background-color: #0a407c;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.length{
+  font-family: Arial;
+  font-size: 19px;
+  font-style: normal;
+  font-variant-caps: normal;
+    font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+
+}

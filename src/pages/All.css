@@ -1,0 +1,212 @@
+.product h2 {
+  font-size: 32px;
+  color: #010f1c;
+  margin-bottom: 20px;
+}
+.bangles {
+  width: -800px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.img_box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.box:hover .img_box .icon {
+  transform: translateY(0);
+}
+
+.box .icon li {
+  list-style: none;
+  padding: 5px 10px;
+  color: #010f1c;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #fff;
+  transition: 0.5s;
+  font-size: 20px; 
+  margin-bottom: 330px;
+}
+
+
+.icon li:hover {
+  background: #4f3267 ;
+  color:  #ebebff;
+}
+.product .container .box .img_box .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  transition: 0.5s;
+}
+
+
+.product .container .box:hover .img_box .icon {
+  transform: translateX(0);
+}
+
+.product .container .box .img_box .icon li {
+  list-style: none;
+  padding: 5px 10px;
+  color: #010f1c;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #fff;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.product .container .box .img_box .icon li:hover {
+  background: #0d2427;
+  color: #fff;
+}
+.detail p {
+  font-size: 14px;
+  color: #888;
+}
+
+/* .detail  {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #000000;
+  transition: 0.5s;
+  font-family: 'Domine', serif;
+  font-weight: 700;
+} */
+
+.detail  h1 {
+  font-size: 18px;
+  margin-top: 5px;
+  color:#4f3267;
+  transition: 0.5s;
+  font-family: 'Domine', serif;
+  font-weight: 700;
+}
+
+.box:hover .detail h1 {
+  color: #33b7c9;
+}
+
+.detail h4 {
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: 'Domine', serif;
+  color: #0d2427;
+  letter-spacing: 1px;
+}
+
+.product {
+  padding: 30px 20px;
+  width: 100%;
+}
+
+.product h2 {
+  font-size: 32px;
+  color: #010f1c;
+  margin-bottom: 20px;
+}
+
+.product .container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.product .container .box {
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+  width: 280px;
+  height: 380px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product .container .box:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: translateY(-10px);
+}
+
+.product .container .box .img_box {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e0e0;
+}
+
+
+
+
+.category {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* Add these styles to display icons on hover */
+.icon {
+  position: absolute;
+  top: 50%; /* Adjust the position as needed */
+  left: 80%; /* Adjust the position as needed */
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out;
+  width: 40px;
+}
+
+.box:hover .icon {
+  opacity: 1; /* Display icons on hover */
+}
+
+
+/*Sort style*/
+.sort-container{
+  width: 100%;
+  color: #4f3267;
+  background-color: #f6f3f9;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.breadcrumb {
+  font-size: 15px;
+}
+.breadcrumb a{
+  text-decoration: none;
+  color: #4f3267;
+}
+.sortby{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 20px;
+}
+.sort{
+  margin-right:10px;
+}
+.sortinput{
+  border: 1px solid #ffffff;
+  color: #4f3267;
+  font-weight: 600;
+  border-radius: 10px;
+}

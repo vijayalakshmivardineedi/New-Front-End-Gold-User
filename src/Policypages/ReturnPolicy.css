@@ -1,0 +1,62 @@
+.disclaimer_header{
+  margin-left: 60px;
+  margin-right: 60px;
+  }
+
+.Return {
+    color: #0d2427;
+    font-family: "Domine", serif;
+    padding: 20px;
+  }
+  
+  .Return h1 {
+    font-size: 30px;
+    font-weight: 500;
+      text-align: center;
+  }
+  
+  .Return-content {
+    font-family: "Mulish", sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .Return-content1 {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .Return-content h2{
+    font-family:  Muli,Arial,sans-serif;
+    color: #0d2427;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .boldcontent{
+    font-family:  Muli,Arial,sans-serif;
+  }
+  
+  .Return-content p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+  }
+  
+  .Return-content li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  .Contactdetails {
+    padding: 20px;
+    padding: 10px;
+  }
+  
+  .contactinfo {
+    margin: 10px 0;
+    font-size: 30px;
+  }
+  
+  .boldcontent{
+    font-family:  Muli,Arial,sans-serif;
+    color: #0d2427;
+    font-weight: 600;
+  }
